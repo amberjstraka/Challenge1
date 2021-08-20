@@ -8,4 +8,4 @@ Refactored website to be more accessable.
 * CSS
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://amberjstraka.github.io/HoriseonChallenge/
