@@ -1,13 +1,16 @@
-* {
+/* Adds default Css values for every element on the page to over ride browsers defaults */
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Changes body background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* Changes background color and font of header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* Changes font size of words in header. Lines up to navigation. */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changes color of "seo" in header */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Moves list to be on right side of page, adds space around nav, updates font and size */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,8 +38,9 @@ header nav {
     font-size: 20px;
 }
 
+
 header nav ul {
-    list-style-type: none;
+   
 }
 
 header nav ul li {
